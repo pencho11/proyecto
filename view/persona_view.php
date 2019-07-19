@@ -59,6 +59,16 @@
                 <div class="ad">Add</div>
                 <div class="ad">Add</div>
             </aside>
+
+            <footer>
+                <div class="autor">
+                    <p>Copyright © 2019 - Proyecto grupo</p>
+                </div>
+                <div class="redes-sociales">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twiter</a>
+                </div>
+            </footer>
            <!--  <script src="../js/bootstrap.js"></script>
             <script src="../js/jquery-3.4.1.js"></script> -->
         </div>
