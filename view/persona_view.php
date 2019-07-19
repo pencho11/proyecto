@@ -3,16 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <title>CRUD - MVC - Personas</title>
+        <title>Proyecto grupo</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
         <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
-        <link rel="stylesheet" href="estilos.css">
+        <link rel="stylesheet" href="css/estilosmvc.css">
 
     </head>
 
     <body>
-        <div class="container">
+        <div class="contenedor">
             <header>
                 <div class="logo">
                     <img src="imagenes/logo.png" alt="">
@@ -26,36 +26,39 @@
             <section class="main">
                 <article>
 
-            <div class="row">
-                <div class="col-md-12">
+            <!-- <div class="row">
+                <div class="col-md-12"> -->
                     <h2>Registro de personas</h2>
                     <table>
-                        <thead>
+                        <!-- <thead> -->
                             <tr>
-
                                 <th>Id</th>
-                                <td></td>
+                                <!-- <td></td> -->
                                 <th> Nombre </th>
 
-                            </tr>
-                        </thead>
-                        <tbody>
+                        <!-- </thead> -->
+                        <!-- <tbody> -->
                             <?php foreach ($query as $data): ?>
                             <tr>
                                 <td><?php echo $data['id'] ?> </td>
-                                <td></td>
+                                <!-- <td></td> -->
 
-                                <td>&nbsp;&nbsp;&nbsp;&nbsp;<?php echo $data['nombre'] ?> </td>
+                                <td><?php echo $data['nombre'] ?> </td>
 
                             </tr>
+                            </tr>
                             <?php endforeach;?>
-                        </tbody>
+                        <!-- </tbody> -->
                     </table>
 
-                </div>
-            </div>
+                <!-- </div>
+            </div> -->
                 </article>
             </section>
+            <aside>
+                <div class="ad">Add</div>
+                <div class="ad">Add</div>
+            </aside>
            <!--  <script src="../js/bootstrap.js"></script>
             <script src="../js/jquery-3.4.1.js"></script> -->
         </div>
